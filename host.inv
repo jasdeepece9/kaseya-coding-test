@@ -2,5 +2,5 @@
 host={${VM_IP}} 
 
 [win:vars]
-ansible_user={{ VM_Admin_User }} 
-ansible_password={{ VM_Password }}
+ansible_user={${VM_Admin_User}} 
+ansible_password={${VM_Password}}
