@@ -1,0 +1,6 @@
+[win]
+{{ VM IP }} 
+
+[win:vars]
+ansible_user={{ VM Admin User }} 
+ansible_password={{ VM Password }}
