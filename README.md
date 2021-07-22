@@ -1,5 +1,5 @@
-Prerequisites:-
-==============
+Prerequisites and steps:-
+=========================
 - First you need to create a Jenkins and Windows EC2 machines with Windows 2012 R2 or later in AWS Account. You can use t2.micro EC2 instance type which is free(750hrs of free usage per month)
 
 - Then login to Jenkins EC2 machine and install Jenkins on it.
