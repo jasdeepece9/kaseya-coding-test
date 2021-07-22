@@ -6,6 +6,8 @@ Prerequisites and steps:-
 
 - Install ansible on Jenkins EC2 machine (Use Yum to install it as i am using Linux EC2 for Jenkins Server).
 
+- Next install pywinrm on ansible control machine which is Jenkins EC2 machine in our case
+
 - Next step is to install the Ansible Plugin on Jenkins by going to Manage Plugins in Jenkins UI.
 
 - Next configure the Ansible installation path under Global Tool Configuration.
