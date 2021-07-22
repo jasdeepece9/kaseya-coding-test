@@ -1,5 +1,5 @@
 [win]
-{{ VM IP }} 
+host={{ VM IP }} 
 
 [win:vars]
 ansible_user={{ VM Admin User }} 
