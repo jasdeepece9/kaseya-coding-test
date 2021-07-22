@@ -1,6 +1,6 @@
 [win]
-host={{ VM IP }} 
+host={{ VM_IP }} 
 
 [win:vars]
-ansible_user={{ VM Admin User }} 
-ansible_password={{ VM Password }}
+ansible_user={{ VM_Admin_User }} 
+ansible_password={{ VM_Password }}
