@@ -1,0 +1,9 @@
+---
+# This plugin is part of the ansible.windows collection (version 1.7.0).
+# To install it use: ansible-galaxy collection install ansible.windows.
+# To use it in a playbook, specify: ansible.windows.win_updates.
+
+- name: Install all updates and reboot as needed
+  ansible.windows.win_updates:
+    category_names: '*'
+    reboot: yes
